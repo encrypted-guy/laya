@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    overflow-x: hidden;
+}
+.home {
+    width: 100vw;
+    height: 100vh;
+    
+    background: url(../img/balancing.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    align-items: center;
+
+}
+.head h1 {
+    font-size: 4rem;
+}
+.head h3 {
+    font-size: 2rem;
+}
+@media screen and (max-width: 650px){
+    .home {
+        justify-content: center;
+        
+    }
+    .head h1 {
+        font-size: 3rem;
+        margin: 10px;
+    }
+    .head h3 {
+        font-size: 1rem;
+        margin: 10px;
+    }
+}
+
+.services {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.services h3 {
+    font-size: 3rem;
+    font-weight: 100;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+.flex-setup {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 3fr));
+    color: #B2B7B1;
+}
+.flex-setup div{
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+.flex-setup div i {
+    font-size: 3rem;
+    padding: 20px;
+}
+.flex-setup div:hover {
+    color: #000;
+    box-shadow: 0 0 16px 0 rgba(41,41,41,.06);
+    transition: .3s ease;
+}
+
+.priceing {
+    background: #F6F6F6;
+
+}
+.priceing h3 {
+    font-size: 3rem;
+    font-weight: 100;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+.cards {
+    width: 80vw;
+    background: #fff;
+    margin: 0 auto;
+    align-items: center;
+    padding: 50px;
+    margin-bottom: 50px;
+}
+.columns {
+    float: left;
+    width: 33.33%;
+    padding: 8px;
+}
+  
+.price {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+  
+.price:hover {
+    box-shadow: 0 0 16px 0 rgba(41,41,41,.06);
+}
+  
+.price .header {
+    background-color: #fff;
+    color: #000;
+    font-size: 25px;
+}
+  
+.price li {
+    padding: 20px;
+    text-align: center;
+}
+  
+.price .grey {
+    background-color: #eee;
+    font-size: 20px;
+}
+  
+  .button {
+    background-color: #339AF0;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .columns {
+      width: 100%;
+    }
+}
+
+.why {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.why h3 {
+    font-size: 3rem;
+    font-weight: 100;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+.grid-setup {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 3fr));
+    color: #B2B7B1;
+}
+.grid-setup div {
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 16px 0 rgba(41,41,41,.06);
+}
+.grid-setup div h4 {
+    color: #339AF0;
+    padding: 5px;
+}
+@media screen and (max-width: 650px){
+    .why {
+        display: none;
+    }
+}
+
+
+.container {
+    padding-top: 50px;
+    width: 40vw;
+    margin: 0 auto;
+}
+  .filds {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    position: relative;
+    margin-bottom: 20px;
+  }
+input {
+    width: 100%;
+    height: 46px;
+    border: 0px;
+    outline: none;
+    border-bottom: 1px solid #9e9e9e;
+    transition: border-bottom, box-shadow 0.25s ease-in-out;
+}
+.contact h3 {
+    font-size: 3rem;
+    font-weight: 100;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+button {
+    background: #339AF0;
+    border: none;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: large;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 30px;
+}
+footer {
+    width: 100vw;
+    background: #242424;
+    color: #fff;
+}
+footer h3 {
+    color: #339AF0;
+    padding: 10px;
+}
+.footer-coll {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 3fr));
+}
+.footer-coll div {
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+.links li a{
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+    
+}
+.links li a:hover{
+    color: #339AF0;
+    
+}
